@@ -14,7 +14,7 @@ import requests
 st.set_page_config(page_title="HR Policy Assistant", page_icon="📄", layout="wide")
 
 EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
-GROK_MODEL = "grok-2-latest"
+GROK_MODEL = "grok-4.3"
 GROK_API_URL = "https://api.x.ai/v1/chat/completions"
 CHUNK_SIZE = 800        # characters per chunk
 CHUNK_OVERLAP = 150     # characters overlap between chunks
