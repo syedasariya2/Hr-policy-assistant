@@ -20,6 +20,22 @@ and ask natural-language questions about it.
 5. Grok answers using only the retrieved excerpts, so answers stay grounded in
    your actual policy document.
 
+## Interactive & explainable UI
+
+- **In-app pipeline explainer** – an "How this works" expander on the main page
+  walks through the extract → chunk → embed → index → retrieve → generate steps.
+- **Example questions** – clickable buttons in the sidebar (e.g. "What is the
+  annual leave policy?") ask a question instantly, no typing required.
+- **Live status while answering** – a step-by-step status panel shows
+  "Searching the document...", "Found N relevant passage(s)...", and
+  "Asking Grok..." as each question is processed.
+- **Sources & relevance panel** – every answer has an expandable panel showing
+  exactly which document excerpts were retrieved, with a relevance percentage
+  and progress bar for each, so you can see why the assistant answered the way
+  it did.
+- **Document stats** – once a PDF is indexed, the sidebar shows page count and
+  chunk count for that document.
+
 ## Project files
 
 ```
